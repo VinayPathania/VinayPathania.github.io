@@ -5065,6 +5065,16 @@ label {
   margin-top: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
 }
+
+.col-md-3 .social-buttons {
+    width: 270px;
+   
+}
+
+
+
+
+
 @media (max-width: 700px){
   .gitCalender{
     width: 55rem;
