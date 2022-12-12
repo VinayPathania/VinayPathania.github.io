@@ -5071,12 +5071,19 @@ label {
    
 }
 .project-p{
-  margin: 20px 5px 20px 5px;
-  padding: 5px 5px 5px 5px;
+  margin-top: 20px;
+  padding: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 3px;
 }
 
+/* .project_box{
+  display: grid;
+  grid-template-columns: 2fr; 
+} */
+.nav_option{
+  margin-right: 80px;
+}
 
 
 
