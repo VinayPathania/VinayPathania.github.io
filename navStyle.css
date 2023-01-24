@@ -77,11 +77,46 @@ a.active,a:hover{
     }
     nav ul li{
         display: block;
-        margin: 50px auto;
+        text-align: center;
+        margin: 30px 20px 30px -15px;
         line-height: 30px;
     }
     nav ul li a{
         font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: 
+        #ff007f;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+
+@media (max-width: 500px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 30%;
+        background: black;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        z-index: 2;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+        margin: 30px 20px 30px -15px;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 14px;
     }
     a:hover,a.active{
         background: none;
