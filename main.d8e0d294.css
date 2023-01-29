@@ -5063,7 +5063,8 @@ label {
   width: 70rem;
   margin-right: 15px;
   margin-top: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .col-md-3 .social-buttons {
@@ -5085,7 +5086,37 @@ label {
   margin-right: 80px;
 }
 
+#git_stats{
+  display: flex;
+  justify-content: space-evenly;
+}
+#git_stats p{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
+.calendar{
+  padding: 15px;
+  color: black;
+  /* background-color: #868686; */
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+@media (max-width: 1200px){
+ 
+  #git_stats{
+    display: block;
+  }
+}
+
+
+@media (max-width: 900px){
+ 
+  #git_stats{
+    display: block;
+  }
+}
 
 
 @media (max-width: 700px){
@@ -5094,6 +5125,9 @@ label {
     margin-right: 15px;
     margin-top: 10px;
   }
+  #git_stats{
+    display: block;
+  }
 }
 @media (max-width: 650px){
   .gitCalender{
@@ -5101,12 +5135,19 @@ label {
     margin: auto;
     margin-top: 10px;
   }
+  #git_stats{
+    display: block;
+  }
+ 
 }
 @media (max-width: 600px){
   .gitCalender{
     width: 45rem;
     margin: auto;
     margin-top: 10px;
+  }
+  #git_stats{
+    display: block;
   }
 }
 @media (max-width: 550px){
@@ -5115,12 +5156,18 @@ label {
     margin: auto;
     margin-top: 10px;
   }
+  #git_stats{
+    display: block;
+  }
 }
 @media (max-width: 500px){
   .gitCalender{
     width: 30rem;
     margin: auto;
     margin-top: 10px;
+  }
+  #git_stats{
+    display: block;
   }
 }
 @media (max-width: 400px){
@@ -5129,12 +5176,18 @@ label {
     margin: auto;
     margin-top: 10px;
   }
+  #git_stats{
+    display: block;
+  }
 }
 @media (max-width: 350px){
   .gitCalender{
     width: 25rem;
     margin: auto;
     margin-top: 10px;
+  }
+  #git_stats{
+    display: block;
   }
 }
 /*# sourceMappingURL=main.bc58148c.map*/
